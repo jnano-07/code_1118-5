@@ -1,5 +1,6 @@
 let sprite = 0
 input.onButtonPressed(Button.A, function () {
+    basic.clearScreen()
     sprite = randint(0, 100)
     if (sprite % 7 == 0) {
         basic.showNumber(sprite)
